@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SixTeam &mdash; Minimalism Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Một trang web nói về Minimalism" />
+    <meta name="keywords" content="minimalism, blog" />
+    <meta name="author" content="SixTeam" />
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="images/logo1.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Superfish -->
+    <link rel="stylesheet" href="css/superfish.css">
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="css/flexslider.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/reponsive.css">
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="fa fa-times close" aria-hidden="true"></i>
+            </div>
+            <div class="modal-header">
+                <span class="title">Đăng nhập để tiếp tục</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-item">
+                    <div class="button-field">
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                        <input type="button" id="login" value="Đăng nhập" onclick="window.location.href='loginsigup.html'">
+
+                    </div>
+                    <div class="button-field">
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        <input type="button" id="loginFacebook" value="Đăng nhập với Facebook">
+                    </div>
+                    <div class="button-field">
+                        <i class="fa fa-google" aria-hidden="true"></i>
+                        <input type="button" id="loginGg" value="Đăng nhập với Google">
+                    </div>
+                    <div class="button-field">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                        <input type="button" id="loginGit" value="Đăng nhập với Github">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header id="fh5co-header" role="banner">
+        <div class="sub-menu">
+            <div class="sub-menu-body container ">
+                <div class="sub-menu-logo">
+                    <a href="index.html"><img src="images/logo23.png" alt="Banner"></a>
+                </div>
+                <form action="" class="search-bar">
+                    <input type="search" placeholder="Search...">
+                    <i class="icon-search3"></i>
+                </form>
+                <a href="about.html">About</a>
+                <a href="work.html">Blog</a></li>
+                <a href="contact.html">Contact</a>
+                <a href="https://www.facebook.com/tantoan2014">Facebook</a></li>
+                <a href="loginsigup.html">Login</a>
+            </div>
+
+            <div class="footer-content">
+                <div class="copyright">
+                    <small>&copy; 2022 SixTeam. <br>Designed by SixTeam</a> Images: 
+                        <a href="https://www.pinterest.com/">Pinterest.</a>  <br> Blog Content:  
+                        <a href="https://thehanoichamomile.com/"> The Hanoi Chamomile</a></small>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="container text-center nav-pc open-nav">
+            <div class="nav open-nav">
+                <div id="fh5co-logo">
+                    <a href="index.html"><img src="images/logo23.png" alt="Banner"></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="work.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="https://www.facebook.com/tantoan2014">Facebook</a></li>
+
+                    </ul>
+                </nav>
+
+            </div>
+            <form action="" class="search-bar">
+                <input type="text">
+                <button type="submit"><i class="icon-search3"></i></button>
+            </form>
+
+    </header>
+    <!-- END #fh5co-header -->
+
+    <!-- sub-header -->
+    <div class="mobile-nav">
+        <div class="sub-menu-logo">
+            <a href="index.html"><img src="images/logo23.png" alt="Banner"></a>
+        </div>
+        <div class="mobile-nav-item">
+            <form action="" class="search-bar">
+                <input type="search" placeholder="Search...">
+                <i class="icon-search3"></i>
+                <!-- <button type="submit"><i class="icon-search3"></i></button> -->
+            </form>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="loginsigup.html">Login</a></li>
+            </ul>
+        </div>
+        <div class="sub-menu-icon">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+
+    </div>
+    <!-- END #fh5co-header -->
+
+    <div class="page-content">
+        <h1 class="mb0">BÀN VỀ CUỐN SÁCH “DIGITAL MINIMALISM” (CHỦ NGHĨA TỐI GIẢN KỸ THUẬT SỐ) – PHẦN 1</h1>
+        <div class="meta"><span><a href="work.html">Minimalism</a>, <a href="https://thehanoichamomile.com/">thehanoichamomile</a></span></div>
+        <p><img src="images/dsc02955-2.jpg" alt="anh1"></p>
+        <p>Đây có thể coi là một bài review sách, nhưng sở dĩ mình chọn từ “<i>bàn về</i>” vì cá nhân mình thấy có rất nhiều điều mà mình muốn chia sẻ về cuốn sách này, không chỉ dừng lại ở việc review thông thường, mà còn là bàn luận về một số trích đoạn
+            hay trong sách.</p>
+        <p>Vì vậy mình chia ra làm 2 phần, để giúp các bạn đọc đỡ oải. Dù là chia 2 phần cơ mà ngay ở phần 1 này cũng đã dài tới gần 3000 từ. Nhưng vì đây là một chủ đề khá hay nên mình hi vọng các bạn có thể dành thời gian để đọc đến hết bài, đặc biệt là
+            đối với những ai thực sự quan tâm đến việc hạn chế sử dụng MXH và tránh bị thiết bị công nghệ chi phối, cũng như đối với những bạn đang theo đuổi lối sống tối giản.</p>
+        <p>Bài viết số 1 này mình sẽ chủ yếu giới thiệu qua về cuốn sách, tóm tắt sách và nêu lên cảm nhận chung. Phần 2 (bài viết sau) sẽ đi sâu hơn vào việc bàn luận một số trích đoạn trong sách cũng như là một số câu chuyện khác mà hiện tại mình tạm thời…
+            chưa nghĩ ra.</p>
+        <p><b>Nói qua một chút về chuyện sử dụng mạng xã hội của mình</b></p>
+        <p>Là một người sống tối giản, mình vẫn cố gắng duy trì một phong cách sống gọn gàng, ít đồ đạc, cũng như tối giản về mặt tinh thần. Tuy nhiên, riêng về khoản digital – kỹ thuật số (mạng xã hội, youtube, phương tiện truyền thông) thì thú thật mình
+            chưa thực sự để ý đến nó, cũng như chưa có một biện pháp nhất định để ngăn ngừa việc bản thân sa đà vào các trang mạng xã hội thường ngày.</p>
+        <p>Facebook và Instagram đều có tính năng kiểm tra thời lượng bạn sử dụng app và có thể đặt thời gian để thông báo với người dùng là bạn đã sử dụng quá mức bạn cho phép. Mặc dù đã đặt thời gian giới hạn nhưng mình vẫn thường bỏ qua thông báo và tiếp
+            tục sử dụng, và có những hôm tổng thời gian sử dụng cả 2 mạng xã hội này lên đến 2 tiếng rưỡi một ngày, đấy là chưa tính thời gian sử dụng facebook, hay là xem youtube trên máy tính nữa.</p>
+        <p>Trong đầu mình luôn nghĩ đến việc sẽ có một ngày mình thực hiện các biện pháp để giảm thời gian sử dụng thiết bị di động, máy tính, hay tiếng Anh thường gọi là “digital detox”, nhưng mình vẫn cứ là một procrastinator (trì trệ, chần chừ) ở khoản
+            này. Cho đến khi mình đọc được cuốn “Digital Minimalism” của Cal Newport và nó thực sự giúp mình nhìn nhận vấn đề liên quan đến công nghệ một cách sâu sắc hơn.</p>
+        <p><b>Lần đầu nghe tới tên cuốn sách</b></p>
+        <p>Mình tình cờ biết đến cuốn sách này khi đang nghe podcast số 173 của
+            <a href="https://www.theminimalists.com/">The Minimalists</a> có tiêu đề là
+            <a href="https://www.youtube.com/watch?v=oxr85CKSZNQ&t=1387s">“Digital Clutter”</a>,và khách mời ở đây là
+            <a href="https://www.calnewport.com/">Cal Newport</a>, một người mà mình đã nghe ở đâu đó nhưng không nhớ rõ lắm, cho đến khi họ giới thiệu Cal Newport là tác giả của cuốn sách bán chạy
+            <a href="https://www.goodreads.com/book/show/25744928-deep-work">Deepwork</a>(đã được dịch và bán ở Việt Nam với tên là “Làm ra làm, chơi ra chơi”). Mới đây, Newport đã xuất bản một cuốn sách mới với tiêu đề là “
+            <a href="https://www.goodreads.com/ar/book/show/40672036-digital-minimalism">Digital Minimalism</a> (Chủ nghĩa tối giản kĩ thuật số), và ngay lập tức cuốn sách nằm trong danh sách New York Times Bestsellers.
+        </p>
+        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/oxr85CKSZNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+        <p>Chỉ cần nghe thấy cái tiêu đề sách thôi cũng đủ khiến mình muốn đọc ngay lập tức mà không cần phải đọc qua phần giới thiệu cuốn sách. Mình tìm đọc trên Kindle và chỉ mất có 3 ngày để hoàn thành cuốn sách, thậm chí còn đọc lại 1 lần để suy ngẫm
+            và tìm lại một số đoạn trích dẫn hay để có thể đưa lên đây cho mọi người đọc cùng.</p>
+        <p><b>Tóm tắt nội dung cuốn sách</b></p>
+        <p>Vì đây là sách tiếng Anh nên mình tóm tắt cho mọi người biết qua nội dung một chút, cũng như kèm theo một số câu trích dẫn từ cuốn sách (bằng cả tiếng anh và phần dịch của mình).</p>
+        <p><i>Introduction</i></p>
+        <p>Tác giả đã dành một khoảng thời gian để tìm hiểu và nghiên cứu về mối quan hệ giữa con người và công nghệ hiện đại, để đi tìm giải pháp cho một vấn đề khá nhức nhối trong thời đại bây giờ, đó là chứng nghiện mạng xã hội và tần suất sử dụng các
+            thiết bị công nghệ hiện đại như điện thoại, máy tính,…</p>
+        <p>Có rất nhiều tips, bí quyết để giúp cải thiện vấn đề này, ví dụ như việc tránh sử dụng điện thoại vào ban đêm, tắt thông báo ứng dụng,… Những cách này đúng là hữu ích nhưng chừng đó là không đủ để có thể giúp con người thoát hoàn toàn khỏi sự
+            chi phối của thiết bị công nghệ, vì đơn giản là chúng ta chưa thực sự suy nghĩ đủ sâu về nó, và đây cũng là lí do tác giả muốn nghiên cứu sâu hơn về sự ảnh hưởng của công nghệ tới cuộc sống con người.</p>
+        <p>“Những gì chúng ta cần có là một tư tưởng, một suy nghĩ sâu sắc về việc sử dụng thiết bị công nghệ hiện đại đủ để giúp chúng ta trả lời được câu hỏi chúng ta nên dùng những gì, dùng như thế nào, và quan trọng nhất là có thể gạt bỏ được những thứ
+            khác một cách dễ dàng”</p>
+        <p><b><i>"What you need instead is a full-fledged philosophy of technology use, rooted in your deep values, that provides clear answers to the questions of what tools you should use and how you should use them and, equally important, enables you to confidently ignore everything else."</i></b></p>
+        <p>Trong quá trình nghiên cứu, Newport đã tìm ra câu trả lời, đó là một tư tưởng, một chủ nghĩa có thể áp dụng thành công vào mảng công nghệ, DIGITAL MINIMALISM (chủ nghĩa tối giản kỹ thuật số). Và đây cũng chính là nội dung chính của cuốn sách.</p>
+        <p>Để giúp người đọc có thể hiểu rõ hơn, tác giả đã chia cuốn sách thành 2 phần. <i>Phần 1 -Nền tảng (Foundation): </i>giải thích cặn kẽ về chủ nghĩa tối giản kỹ thuật số, đồng thời giới thiệu phương pháp “Dọn dẹp kỹ thuật số” (30-day Digital Declutter).
+            <i>Phần 2 – Thực hành (Practice): </i>phần này xem xét kĩ hơn về một số ý tưởng giúp bạn duy trì bền vững cuộc sống tối giản ở mặt kỹ thuật số. Và như Newport nói thì người đọc có thể đọc hết phần 1 trước, thực hành phương pháp “Digital Declutter”
+            trong vòng 30 ngày, sau đó mới tiếp tục đọc phần 2.</p>
+        <p><b>Phần 1 – Nền tảng (Foundation)</b></p>
+        <p><b><i>"Digital Minimalism"</i></b></p>
+        <p><b><i>"A philosophy of technology use in which you focus your online time on a small number of carefully selected and optimized activities that strongly support things you value, and then happily miss out on everything else".</i></b></p>
+        <p>“Chủ nghĩa tối giản kỹ thuật số – là một khái niệm mà ở đó bạn tập trung thời gian online của mình vào những ứng dụng, hoạt động đã được tối ưu hóa và lựa chọn cẩn thận, với mục đích hỗ trợ những thứ bạn coi trọng, và sau đó vui vẻ bỏ lỡ mọi thứ
+            khác”.
+        </p>
+        <p>3 nguyên tắc của chủ nghĩa tối giản kỹ thuật số <i>(The Principles of Digital Minimalism)</i></p>
+        <p><i>1. Cái giá đắt đỏ của sự bừa bộn (Clutter is Costly)</i></p>
+        <p>Một digital minimalist sẽ hiểu rõ được việc dành nhiều thời gian và sự chú ý đến quá nhiều thiết bị công nghệ, ứng dụng và dịch vụ sẽ tạo nên một sự ảnh hưởng xấu nhất định và nuốt chửng chững lợi ích nho nhỏ mà mỗi thiết bị, ứng dụng đem lại
+            cho người dùng.</p>
+        <p><i>2. Việc tối ưu hóa rất quan trọng (Optimization is important)</i></p>
+        <p>Một digital minimalist tin rằng việc lựa chọn những thiết bị công nghệ hỗ trợ những gì họ coi trọng chỉ là bước đầu tiên. Để có thể khai thác tối đa lợi ích tiềm năng thì việc sử dụng những thứ đó như thế nào cũng rất quan trọng.</p>
+        <p><i>3. Hài lòng với sự chủ ý (Intentionality is satisfying)</i></p>
+        <p>Một digital minimalist hài lòng với những cam kết họ đưa ra trong việc sử dụng thiết bị công nghệ một cách có chủ ý. Đại khái là những người theo chủ nghĩa tối giản kỹ thuật số luôn biết cách để không bị các thiết bị công nghệ chi phối mà ngược
+            lại, chính họ mới là người sử dụng, “chi phối” công nghệ.</p>
+        <p>Sau khi đã nêu ra những luận điểm, lý thuyết về “digital minimalism”, Cal Newport có nói rằng, để có thể áp dụng lối sống mới này thì cần phải có một sự thay đổi mạnh mẽ trong một thời gian ngắn, từ đó đề xuất <i>phương pháp “Digital Declutter” – Dọn dẹp kỹ thuật số, trong vòng 30 ngày.</i></p>
+        <p><i>Digital Declutter</i></p>
+        <p><i>1. Bắt đầu chiến dịch dọn dẹp công nghệ 30 ngày với việc gạt bỏ những thiết bị công nghệ “tùy chọn” (optional technology) ra khỏi cuộc sống hàng ngày.</i></p>
+        <p>Phương pháp dọn dẹp này chủ yếu tập trung vào thiết bị công nghệ hiện đại, ví dụ như ứng dụng (apps), các trang web được sử dụng thông qua màn hình máy tính hoặc điện thoại. Có 2 ví dụ ngoại lệ nhưng cũng có thể được đưa vào đây là trò chơi điện
+            tử và nguồn phát video (youtube, netflix).</p>
+        <p>Ở đây tác giả có nói là hãy tạm thời gạt bỏ những <i>ứng dụng “tùy chọn” </i>(optional technology). Optional ở đây nghĩa là những thứ mà bạn có thể gạt bỏ nó đi mà không làm ảnh hưởng đến công việc hoặc đời sống sinh hoạt cá nhân. Lấy ví dụ, nếu
+            công việc của bạn yêu cầu việc sử dụng Facebook Messenger, thì bạn vẫn cứ việc sử dụng nó, nhưng có thể là giới hạn thời gian, cách sử dụng để phục vụ cho công việc. Trong khi đó, nếu bạn đơn thuần chỉ sử dụng Facebook như một phương tiện
+            giải trí hoặc kết nối thông thường thì có thể liệt nó vào danh sách optional technology và ngừng sử dụng nó trong 30 ngày.</p>
+        <p><i>2. Trong vòng 30 ngày này, hãy khám phá và tìm lại những thói quen tốt, những hoạt động có ý nghĩa</i></p>
+        <p>Mục đích thật sự của phương pháp “Digital Declutter” này không đơn thuần chỉ là “tận hưởng” khoảng thời gian tránh xa khỏi thiết bị công nghệ. Trong khoảng thời gian này, bạn phải chủ động tìm kiếm, khám phá những hoạt động có ý nghĩa hơn để bù
+            lấp vào khoảng trống mà thiết bị công nghệ “thừa thãi” đã để lại. Ví dụ như đọc sách, đi dạo phố, tập nhạc cụ,…</p>
+        <p>Nó cũng giống như việc bạn tạo dựng những thói quen tốt để dần dần thay thế thói quen xấu. Trong thời gian này, nếu bạn không thực sự đứng dậy để tự tìm kiếm, tự tạo ra những thú vui có ý nghĩa thì sau khi hoàn thành phương pháp dọn dẹp này bạn
+            sẽ lại quay lại guồng sinh hoạt xoay quanh những thiết bị, ứng dụng công nghệ vì đơn giản là bạn không biết cách giải quyết tình trạng “boredom” (chán nản) như thế nào trong 30 ngày vừa rồi.</p>
+        <p>(Mình cho từ “tận hưởng” vào ngoặc kép vì trong sách thì nó viết là “enjoy” nhưng mà mình nghĩ là việc ngưng sử dụng MXH đối với đa số mọi người đều là một cái gì đó tương đối khó khăn.)</p>
+        <p><i>3. Sau 30 ngày, giới thiệu lại những thiết bị, ứng dụng công nghệ “tùy chọn” vào cuộc sống của bạn, bắt đầu từ con số 0. Đối với mỗi ứng dụng hoặc thiết bị bạn giới thiệu lại, bạn hãy xác định rõ giá trị phục vụ của nó, và cách mà bạn sử dụng nó trong cuộc sống hàng ngày</i></p>
+        <p>Bước cuối cùng này sẽ giúp bạn xây dựng được một lối sống mà ở đó bạn là người làm chủ thiết bị công nghệ, hay nói cách khác, sử dụng một cách chủ ý, giống như một digital minimalist.</p>
+        <p><b>Phần 2 – Thực hành</b></p>
+        <p>Phần này bao gồm 4 biện pháp, ý tưởng giúp bạn có thể duy trì một cuộc sống tối giản kỹ thuật số. Và bật mí với các bạn, trong phần này có một chương rất thú vị, và mình nghĩ là chưa ai từng nghĩ đến việc này. Phần này mình sẽ bàn luận cụ thể
+            ở bài viết số 2 nên mình chỉ tóm tắt ngắn gọn.</p>
+        <p><i>1. Giành thời gian một mình (Spend Time Alone)</i></p>
+        <p>Để điện thoại của bạn ở nhà, dành thời gian đi bộ một mình, và viết tâm thư gửi đến chính bản thân mình khi gặp phải khó khăn, đây là những cách tốt nhất để tận hưởng thời gian ở một mình.</p>
+        <p><i>2. Đừng bấm nút “LIKE” (Don’t push “Like”)</i></p>
+        <p>Đây là phần thú vị nhất trong cuốn sách, vì nó thực sự đi sâu vào vấn đề tâm lý của con người. Không ấn Like ở đây không chỉ nói về việc chúng ta không nên ấn nút like vào các post, trang quảng cáo bán hàng, mà thậm chí là không ấn like vào những
+            bức ảnh em bé của chị họ chẳng hạn. Mình sẽ để dành cái này cho bài viết số 2.</p>
+        <p><i>3. Đi tìm lại sự giải trí (Reclaim Leisure)</i></p>
+        <p>Thay vì không làm gì thì hãy tự tìm kiếm cho bản thân những hoạt động có ích và tận hưởng nó để tránh bị sa đà vào việc sử dụng thiết bị công nghệ.</p>
+        <p><i>4. Tham gia “chiến dịch chống lại sự chú ý” (Join the Attention Resistance)</i></p>
+        <p>Ở đây có một cụm từ chuyên môn gọi là “Attention Economy” – Kinh tế sức chú ý, mà theo wiki dịch là “một cách tiếp cận quản lý thông tin coi sức chú ý của con người như một mặt hàng khan hiếm, áp dụng các lý thuyết kinh tế học để giải quyết các
+            vấn đề trong quá trình quản lý thông tin”. Đại khái là những trang web như Facebook sẽ ngầm theo dõi quá trình hoạt động của bạn, lưu lại thành một tệp thông tin gọi là human attention và bán nó cho các advertiser (nhà quảng cáo). Nó liên
+            quan đến một cụm từ khác gọi là “clickbait” mà có thể mình sẽ giải thích cụ thể ở bài viết sau.</p>
+        <p><b>Cảm nhận chung về cuốn sách này</b></p>
+        <p>Cuốn sách thực sự rất hay, vì nó giúp mình có một cái nhìn sâu sắc hơn về mối quan hệ giữa con người và công nghệ nói chung. Đặc biệt, tác giả đi sâu vào việc phân tích chủ nghĩa tối giản kĩ thuật số, cũng như chia sẻ cách áp dụng tư tưởng đó
+            vào cuộc sống công nghệ hiện đại.</p>
+        <p>Ban đầu, khi nghe podcast của The Minimalist phỏng vấn Cal Newport, mình thấy hơi nghi nghi, vì Newport là một người vốn từ xưa đã không dùng mạng xã hội, vậy thì ông làm sao có thể hiểu rõ được tâm lý của một người nghiện mạng xã hội và đưa ra
+            những lời giải thích? Chỉ đến khi đọc cuốn sách, mình mới thấy được rằng Newport kì công với việc viết sách như thế nào. Tác giả tham khảo rất nhiều tài liệu, sách của những người khác, theo dõi quá trình “Dọn dẹp công nghệ” của 1600 người
+            đã tham gia vào “cuộc thí nghiệm” mà ông tạo ra, trích dẫn kết quả của một số người thành công và thất bại trong việc áp dụng lối sống tối giản vào mảng kỹ thuật số. Nhìn chung, đây đúng là một cuốn sách được viết bởi một người đi theo lĩnh
+            vực nghiên cứu, một cuốn sách có dẫn chứng đầy đủ và lập luận chặt chẽ. </p>
+        <p>Tuy vậy, một số dẫn chứng hay ví dụ mà Cal Newport đưa ra trong sách đôi khi có phần hơi dài, thừa thãi, ví dụ như câu chuyện của tổng thống Abraham Lincoln ở chương “Spend Time Alone”, the Amish Country ở phần nào đó mình không nhớ lắm (nhưng
+            vì dài quá nên chỉ đọc lướt qua), hay là các trích đoạn trong cuốn sách Walden của Henry David Thoreau (hầu như chương nào cũng thấy ít nhất một câu).</p>
+        <p>Chương “Don’t Push Like” là chương mình thấy thú vị nhất, những cũng khiến mình phải suy nghĩ rất nhiều, và mình sẽ chia sẻ với các bạn ở bài viết sau.</p>
+        <p>Nhìn chung, mình chấm điểm cho cuốn này 4/5. 4 điểm vì sự logic và sâu sắc, trừ 0,9 điểm vì một số điều mình cảm thấy khó hiểu, một số dẫn chứng hơi lan man, và trừ 0,1 cho việc bìa sách hơi… xấu (ý kiến cá nhân của mình thôi)</p>
+        <p>Phần tiếp theo:</p>
+        <p>
+            <a href="digitalminimalismp2.html">Bàn về cuốn sách “Digital Minimalism” (Chủ nghĩa tối giản kỹ thuật số) – Phần 2</a>
+        </p>
+
+    </div>
+    <div class="comment-content container">
+        <div class="bbt fh5co-projects bcent">
+            <h2>COMMENT</h2>
+        </div>
+        <ul>
+            <li class="comment-item">
+                <div><img src="images/unnamed0.jpg" alt="" class="avatar"></div>
+                <div class="comment-inf">
+                    <h6 class="name"><b></b><em></em></h6>
+                    <input type="text" class="comment-input" name="comment-input" placeholder="Add a comment" value="">
+                    <div class="react-component">
+                        <button>HỦY </button>
+                        <button class="comment-js">BÌNH LUẬN</button>
+                    </div>
+                </div>
+            </li>
+            <li class="comment-item">
+                <img src="images/unnamed1.jpg" alt="" class="avatar">
+                <div class="comment-inf">
+                    <h6 class="name"><b>Tarobam </b><em>1 ngày trước</em></h6>
+                    <p class="comment-text">Ah the memories of watching Shelter for the first time, and now to re-live the feeling with Hiyumi singing it.</p>
+                    <div class="react-component">
+                        <button><i class="fa fa-thumbs-o-up react-item" aria-hidden="true"></i></button>
+                        <button><i class="fa fa-thumbs-o-down react-item" aria-hidden="true"></i></button>
+                        <button class="react-item">PHẢN HỒI</button>
+                    </div>
+                </div>
+            </li>
+            <li class="comment-item">
+                <img src="images/unnamed2.jpg" alt="" class="avatar">
+                <div class="comment-inf">
+                    <h6 class="name"><b>Justin Y. </b><em>1 ngày trước</em></h6>
+                    <p class="comment-text">Imagine traveling back decades and explaining to him that in the future, hundreds of thousands of people will be listening to his song on a supercomputer with a picture of a Japanese cartoon.</p>
+                    <div class="react-component">
+                        <button><i class="fa fa-thumbs-o-up react-item" aria-hidden="true"></i></button>
+                        <button><i class="fa fa-thumbs-o-down react-item" aria-hidden="true"></i></button>
+                        <button class="react-item">PHẢN HỒI</button>
+                    </div>
+                </div>
+            </li>
+            <li class="comment-item">
+                <img src="images/channels4_profile.jpg" alt="" class="avatar">
+                <div class="comment-inf">
+                    <h6 class="name"><b>DigiNeko </b><em>2 ngày trước</em></h6>
+                    <p class="comment-text">Classic Masterpiece.</p>
+                    <div class="react-component">
+                        <button><i class="fa fa-thumbs-o-up react-item" aria-hidden="true"></i></button>
+                        <button><i class="fa fa-thumbs-o-down react-item" aria-hidden="true"></i></button>
+                        <button class="react-item">PHẢN HỒI</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="container-fluid pt70 pb70">
+        <div class="row">
+            <div class="bbt fh5co-projects bcent">
+                <h2>OTHER POSTS</h2>
+            </div>
+            <div id="fh5co-projects-feed" class=" fh5co-projects-feed clearfix masonry ">
+                <div class="fh5co-project masonry-brick imgwork ">
+                    <a href="5thoiquen.html">
+                        <img src="images/2019-11-29-09.09.41-1.jpg" alt="5thoiquen">
+                        <h2>5 THÓI QUEN NHỎ GIÚP MÌNH CÓ ĐƯỢC MỘT CUỘC SỐNG GỌN GÀNG VÀ NGĂN NẮP</h2>
+                        <p>Viết xong bài tổng kết tháng 11 từ cách đây 2 hôm rồi, những mình vẫn muốn viết thêm cái gì đó, khác khác một chút. Chợt nhớ lâu rồi mình chưa viết về chủ đề tối giản hay là dọn dẹp. Vì vậy mình quyết định sẽ viết thêm một bài
+                            ngắn gọn chia […]</p>
+                    </a>
+                </div>
+
+                <div class="fh5co-project masonry-brick row imgwork">
+                    <a href="chiaseveloisongtoigian.html">
+                        <img src="images/tumblr_o9325qq4zk1qmi4k1o1_500.jpg" alt="chiaseveloisongtoigian">
+                        <h2>CHIA SẺ VỀ LỐI SỐNG TỐI GIẢN</h2>
+                        <p>Cũng khá lâu rồi mình chưa viết gì về chủ đề “lối sống tối giản”. So với 1 năm trước thì tần suất đăng các bài viết về “minimalism” có ít hơn một chút, nhưng không có nghĩa là mình không còn theo đuổi lối sống này. Lối sống tối
+                            giản không phải đích đến, […]</p>
+                    </a>
+                </div>
+                <div class="fh5co-project masonry-brick imgwork ">
+                    <a href="ditimphongcachsongtoigian.html">
+                        <img src="images/dscf8638-1.jpg" alt="ditimphongcach">
+                        <h2>ĐI TÌM PHONG CÁCH SỐNG TỐI GIẢN RIÊNG CHO BẢN THÂN</h2>
+                        <p>Đã lâu rồi mình chưa viết về chủ đề lối sống tối giản. Nhận tiện đang ngồi viết script cho một bài phỏng vấn nho nhỏ sắp tới thì mình cũng tranh thủ sử dụng “idea” đó để viết blog luôn. Bài viết này có nội dung về việc làm thế
+                            nào để một cá […]</p>
+                    </a>
+                </div>
+                <div class="fh5co-project masonry-brick imgwork">
+                    <a href="minhdathaydoinhuthenao.html">
+                        <img src="images/black-white-living.jpg" alt="minhdathaydoinhuthenao">
+                        <h2>MÌNH ĐÃ THAY ĐỔI NHƯ THẾ NÀO KỂ TỪ KHI SỐNG TỐI GIẢN?</h2>
+                        <p>Tháng 7 năm 2018, đó là thời điểm mình bắt đầu tập tành viết blog. Bài viết đầu tiên của mình về chủ đề tối giản có tiêu đề là “Vứt bỏ và dọn dẹp đã giúp mình thay đổi cuộc sống như thế nào“. Ban đầu, mình đặt tiêu đề là “thay
+                            đổi cuộc […]</p>
+                    </a>
+                </div>
+                <div class="fh5co-project masonry-brick imgwork">
+                    <a href="3cuonsachvechunghiatoigian.html">
+                        <img src="images/dscf6989.jpg" alt="chunghiatoigian">
+                        <h2>3 CUỐN SÁCH VỀ CHỦ NGHĨA TỐI GIẢN MÀ BẠN NÊN ĐỌC</h2>
+                        <p>Tháng 3 luôn là tháng thích hợp để có thể cho ra những bài viết với tiêu đề “top 3”, “3 điều”, “3 thứ”… Năm ngoái mình viết khá nhiều bài với con số 3 này, và năm nay cũng sẽ như vậy. Khởi đầu sẽ là một bài viết về sách. Đúng dịp
+                            tròn […]
+                        </p>
+                    </a>
+                </div>
+                <div class="fh5co-project masonry-brick imgwork">
+                    <a href="banlamviectoigian.html">
+                        <img src="images/minimal_clean_desk_setups_08.jpg" alt="banlamviectoigian">
+                        <h2>BÀN LÀM VIỆC TỐI GIẢN CỦA MÌNH</h2>
+                        <p>Viết xong bài tổng kết tháng 11 từ cách đây 2 hôm rồi, những mình vẫn muốn viết thêm cái gì đó, khác khác một chút. Chợt nhớ lâu rồi mình chưa viết về chủ đề tối giản hay là dọn dẹp. Vì vậy mình quyết định sẽ viết thêm một bài
+                            ngắn gọn chia […]</p>
+                    </a>
+                </div>
+                <div class="fh5co-project masonry-brick imgwork">
+                    <a href="doclaicuonsachloisongtoigian.html">
+                        <img src="images/dscf6905.jpg" alt="loisongtoigiancuanguoinhat">
+                        <h2>ĐỌC LẠI CUỐN SÁCH “LỐI SỐNG TỐI GIẢN CỦA NGƯỜI NHẬT”</h2>
+                        <p>Lối sống tối giản của người Nhật – Sasaki Fumio. Hai năm trước, cuốn sách này đã thay đổi cuộc đời mình. Lần đầu tiên trong đời, mình biết đến lối sống tối giản, biết đến khái niệm “minimalism”. Kể từ đó, mình quyết tâm trở thành
+                            một minimalist, và bắt đầu trải nghiệm một […]</p>
+                    </a>
+                </div>
+                <!-- <div class="fh5co-project masonry-brick imgwork">
+                    <a href="digitalminimalismp1.html">
+                        <img src="images/digital-minimalism-book-review-768x1024.jpg" alt="digitalminalismp1">
+                        <h2>BÀN VỀ CUỐN SÁCH “DIGITAL MINIMALISM” (CHỦ NGHĨA TỐI GIẢN KĨ THUẬT SỐ)-PHẦN 1</h2>
+                        <p>Đây có thể coi là một bài review sách, nhưng sở dĩ mình chọn từ “bàn về” vì cá nhân mình thấy có rất nhiều điều mà mình muốn chia sẻ về cuốn sách này, không chỉ dừng lại ở việc review thông thường, mà còn là bàn luận về một số
+                            trích đoạn hay […]</p>
+                    </a>
+                </div> -->
+                <div class="fh5co-project masonry-brick imgwork">
+                    <a href="banlamviectoigian.html">
+                        <img src="images/2018-10-22-05-30-16-1-e1540290985499.jpg" alt="visaominhsongtheochunghiatoigian">
+                        <h2>VÌ SAO MÌNH SỐNG THEO CHỦ NGHĨA TỐI GIẢN?</h2>
+                        <p> Cuối tuần vừa rồi, mình đã đến hiệu sách FAHASA để ngó nghiêng và mua sách. Ở đó bán rất nhiều sách, từ kinh tế, chính trị, kỹ năng sống hay lịch sử,… Nhưng rồi lúc ra về mình chỉ mua đúng một cuốn duy nhất, cuốn sách mà mình rất
+                            muốn đọc từ […]
+                        </p>
+                    </a>
+                </div>
+                <div class="fh5co-project masonry-brick imgwork">
+                    <a href="chungtaduocgikhivutbododac.html">
+                        <img src="images/28435689_876038089224324_526358275168403456_n-e1534298936325.jpg" alt="chungtaduocgikhivutbododac">
+                        <h2>CHÚNG TA ĐƯỢC GÌ KHI VỨT BỎ ĐỒ ĐẠC</h2>
+                        <p>“Đồ đạc ít, hạnh phúc nhiều” – Sasaki Fumio. Quả đúng là như vậy. Từ khi vứt bỏ đồ đạc, cuộc sống của mình trở nên đơn giản hơn và hạnh phúc hơn. Chúng ta được gì sau khi vứt bỏ đồ đạc? Sau đây mình xin được chỉ ra những lợi ích
+                            của việc […]</p>
+                    </a>
+                </div>
+                <div class="fh5co-project masonry-brick imgwork">
+                    <a href="dondepgiulaivatubo.html">
+                        <img src="images/minude-adjustable-track-be-melle-privres-minude-02-fam-g-arcit18.jpg" alt="đonephaytubo">
+                        <h2>DỌN DẸP: GIỮ LẠI VÀ TỪ BỎ</h2>
+                        <p>Liên quan tới lối sống tối giản, mình có đăng một vài bài về chủ đề “vứt bỏ” (hay là từ bỏ) và cũng nhận được nhiều ý kiến từ phía người đọc. Ở bài viết này, mình tiếp cận lối sống tối giản theo một cách khác, không phải là từ
+                            bỏ, mà […]</p>
+                    </a>
+                </div>
+                <div class="fh5co-project masonry-brick imgwork">
+                    <a href="digitalminimalismp2.html">
+                        <img src="images/digital-minimalism.JPG" alt="digitalminalismp2">
+                        <h2>BÀN VỀ CUỐN SÁCH “DIGITAL MINIMALISM” (CHỦ NGHĨA TỐI GIẢN KĨ THUẬT SỐ)-PHẦN 2</h2>
+                        <p>Đây là bài viết số 2 xoay quanh cuốn sách mình mới đọc, “Digital Minimalism” của Cal Newport. Nếu như bài viết trước mình viết theo đúng kiểu “review” kèm theo đoạn tóm tắt ngắn, thì ở bài viết này mình đi sâu vào một chi tiết
+                            trong cuốn sách mà mình cực kì quan […]</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--END .fh5co-projects-feed-->
+    </div>
+    <!-- END .container-fluid -->
+
+    <footer id="fh5co-footer" role="contentinfo">
+        <div class="container-fluid">
+            <div class="footer-content">
+                <div class="copyright"><small>&copy; 2022 SixTeam. <br>Designed by SixTeam</a> Images: <a href="https://www.pinterest.com/">Pinterest.</a>  <br> Blog Content:  <a href="https://thehanoichamomile.com/"> The Hanoi Chamomile</a></small></div>
+                <div class="social">
+                    <a href="#"><i class="icon-facebook3"></i></a>
+                    <a href="#"><i class="icon-instagram2"></i></a>
+                    <a href="#"><i class="icon-linkedin2"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="backtop">
+        <i class="fa fa-chevron-up"></i>
+    </div>
+    <!-- END #fh5co-footer -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- masonry -->
+    <script src="js/jquery.masonry.min.js"></script>
+    <!-- MAIN JS -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
