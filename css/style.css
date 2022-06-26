@@ -218,7 +218,6 @@ figure {
 } */
 
 
-
 /* start sub menu css */
 
 .sub-menu {
@@ -838,32 +837,33 @@ li {
     width: 100%;
     float: left;
 }
-.wrapper{
+
+.wrapper {
     width: 50%;
     max-width: 280px;
-    margin:0 auto;
+    margin: 0 auto;
     /* background: #ccc; */
-   height: 160px;
+    height: 160px;
 }
 
-.search-input{
+.search-input {
     /* background: rgb(211, 189, 189); */
     border-radius: 5px;
     /* box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12); */
     position: relative;
 }
 
-.search-input input{
+.search-input input {
     width: 100%;
     height: 35px;
     outline: none;
     /* border: none; */
     padding: 0 5px 0 5px;
     font-size: 15pt;
-    box-shadow: 0px 1px 5px  rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-.search-input .icon{
+.search-input .icon {
     width: 55px;
     height: 55px;
     line-height: 55px;
@@ -876,7 +876,7 @@ li {
     cursor: pointer;
 }
 
-.autocom-box{
+.autocom-box {
     background: #f1f1f1;
     padding: 0;
     max-height: 180px;
@@ -885,10 +885,9 @@ li {
     opacity: 0;
     pointer-events: none;
     margin-top: 10px
-
 }
 
-.autocom-box li{
+.autocom-box li {
     list-style: none;
     padding: 8px 12px;
     width: 100%;
@@ -897,16 +896,20 @@ li {
     display: none;
 }
 
-.autocom-box li:hover{
+.autocom-box li:hover {
     background: #efefef;
-    
 }
 
-.active  .autocom-box {
+.autocom-box li a {
+    color: #999999
+}
+
+.active .autocom-box {
     padding: 10px 8px;
     opacity: 1;
     pointer-events: auto;
 }
-.active  .autocom-box li {
+
+.active .autocom-box li {
     display: block;
 }
