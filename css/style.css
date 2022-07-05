@@ -247,6 +247,7 @@ figure {
 .sub-menu-body>.sub-menu {
     display: flex;
     flex-direction: column;
+    min-height: max-content +100px;
 }
 
 .sub-menu>.footer-content {
@@ -257,6 +258,7 @@ figure {
     padding-bottom: 20px;
     text-align: center;
     color: #999999;
+    min-height: 100px;
 }
 
 .sub-menu-body .row .search-input {
@@ -614,6 +616,7 @@ textarea {
     line-height: 40px;
     outline: 0;
     text-align: center;
+    background: none;
 }
 
 .modal-container .modal-item .button-field i {
