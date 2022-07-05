@@ -150,7 +150,7 @@ figure {
     height: 46px;
     width: 100%;
     justify-content: space-between;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
     /* transition: top 0.5s; */
     animation: header-trasition ease 0.4s;
     align-content: center;
@@ -949,4 +949,8 @@ li {
 
 .active .autocom-box li {
     display: block;
+}
+
+.page-content img {
+    padding-bottom: 28px;
 }
