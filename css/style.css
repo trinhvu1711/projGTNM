@@ -176,12 +176,14 @@ figure {
     padding-right: 30px;
 }
 
-.mobile-nav-item .search-bar {
-    border-bottom: 1px solid #d5d5d5;
-    /* height: 70%; */
-    margin: 0;
-    width: auto;
-    align-self: center;
+.mobile-nav-item .search-input {
+    border-radius: 5px;
+    position: relative;
+    width: 200px;
+}
+
+.mobile-nav-item .search-input .icon {
+    right: -25px;
 }
 
 
@@ -224,7 +226,7 @@ figure {
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 250px;
+    max-width: 240px;
     width: 40%;
     height: 100%;
     background-color: #fcfcfc;
@@ -255,6 +257,10 @@ figure {
     padding-bottom: 20px;
     text-align: center;
     color: #999999;
+}
+
+.sub-menu-body .row .search-input {
+    max-width: fit-content;
 }
 
 .sub-menu-icon {
@@ -302,6 +308,18 @@ figure {
     width: auto;
 }
 
+.sub-menu-body .search-input {
+    /* background: rgb(211, 189, 189); */
+    border-radius: 5px;
+    /* box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12); */
+    position: relative;
+    width: 200px;
+}
+
+.sub-menu-body .search-input .icon {
+    right: -20px;
+}
+
 
 /* end sub menu css */
 
@@ -326,6 +344,10 @@ figure {
 
 #backtop.backtop-open {
     display: flex;
+}
+
+#backtop:hover {
+    background-color: red;
 }
 
 
@@ -359,6 +381,15 @@ button {
     max-width: 30px;
     background: none;
     color: #bbb;
+}
+
+.search-input:hover {
+    opacity: 1.0;
+    cursor: pointer;
+}
+
+.search-input {
+    opacity: 0.7;
 }
 
 .icon-search3 {
@@ -741,6 +772,11 @@ textarea {
     color: #000;
     font-size: 20px;
     list-style: square;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.square li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .pt70 {
@@ -860,7 +896,7 @@ li {
     /* border: none; */
     padding: 0 5px 0 5px;
     font-size: 15pt;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1); */
 }
 
 .search-input .icon {
@@ -894,6 +930,7 @@ li {
     cursor: default;
     border-radius: 3px;
     display: none;
+    font-size: 12pt;
 }
 
 .autocom-box li:hover {

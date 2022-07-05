@@ -24,6 +24,12 @@
     .mobile-nav {
         display: flex;
     }
+    .search-input input {
+        max-width: 70%;
+    }
+    .search-input .icon {
+        right: 0;
+    }
 }
 
 @media (max-width: 690px) {

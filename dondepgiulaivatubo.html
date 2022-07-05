@@ -55,47 +55,22 @@
 </head>
 
 <body>
-    <div class="modal js-modal">
-        <div class="modal-container js-modal-container">
-            <div class="modal-close js-modal-close">
-                <i class="fa fa-times close" aria-hidden="true"></i>
-            </div>
-            <div class="modal-header">
-                <span class="title">Đăng nhập để tiếp tục</span>
-            </div>
-            <div class="modal-body">
-                <div class="modal-item">
-                    <div class="button-field">
-                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-                        <input type="button" id="login" value="Đăng nhập" onclick="window.location.href='loginsigup.html'">
 
-                    </div>
-                    <div class="button-field">
-                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                        <input type="button" id="loginFacebook" value="Đăng nhập với Facebook">
-                    </div>
-                    <div class="button-field">
-                        <i class="fa fa-google" aria-hidden="true"></i>
-                        <input type="button" id="loginGg" value="Đăng nhập với Google">
-                    </div>
-                    <div class="button-field">
-                        <i class="fa fa-github" aria-hidden="true"></i>
-                        <input type="button" id="loginGit" value="Đăng nhập với Github">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <header id="fh5co-header" role="banner">
         <div class="sub-menu">
             <div class="sub-menu-body container ">
                 <div class="sub-menu-logo">
                     <a href="index.html"><img src="images/logo23.png" alt="Banner"></a>
                 </div>
-                <form action="" class="search-bar">
-                    <input type="search" placeholder="Search...">
-                    <i class="icon-search3"></i>
-                </form>
+                <div class="row">
+                    <div class="search-input">
+                        <input type="text" placeholder="Search...">
+                        <div class="icon"><i class="fa fa-search" aria-hidden="true"></i> </div>
+                        <!-- <button type="submit"><i class="icon-search3"></i></button> -->
+                        <div class="autocom-box">
+                        </div>
+                    </div>
+                </div>
                 <a href="about.html">About</a>
                 <a href="work.html">Blog</a></li>
                 <a href="contact.html">Contact</a>
@@ -121,14 +96,14 @@
                 <nav>
                     <ul>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="work.html">Blog</a></li>
+                        <li class="active"><a href="work.html">Blog</a></li>
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="https://www.facebook.com/tantoan2014">Facebook</a></li>
 
                     </ul>
                 </nav>
-
             </div>
+
             <div class="search-bar  ">
                 <div class="wrapper">
                     <div class="search-input">
@@ -141,6 +116,7 @@
                 </div>
             </div>
 
+
     </header>
     <!-- END #fh5co-header -->
 
@@ -150,11 +126,14 @@
             <a href="index.html"><img src="images/logo23.png" alt="Banner"></a>
         </div>
         <div class="mobile-nav-item">
-            <form action="" class="search-bar">
-                <input type="search" placeholder="Search...">
-                <i class="icon-search3"></i>
+            <div class="search-input">
+                <input type="text" placeholder="Search...">
                 <!-- <button type="submit"><i class="icon-search3"></i></button> -->
-            </form>
+                <div class="icon"><i class="fa fa-search" aria-hidden="true"></i> </div>
+                <div class="autocom-box">
+                </div>
+
+            </div>
             <ul>
                 <li><a href="about.html">About</a></li>
                 <li><a href="work.html">Blog</a></li>
@@ -167,7 +146,6 @@
         </div>
 
     </div>
-    <!-- END #fh5co-header -->
 
     <div class="page-content">
         <h1 class="mb0">DỌN DẸP: GIỮ LẠI VÀ TỪ BỎ</h1>
@@ -417,11 +395,43 @@
             </div>
         </div>
     </footer>
+    <!-- END #fh5co-footer -->
     <div id="backtop">
         <i class="fa fa-chevron-up"></i>
     </div>
-    <!-- END #fh5co-footer -->
+    <!-- END backtop -->
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="fa fa-times close" aria-hidden="true"></i>
+            </div>
+            <div class="modal-header">
+                <span class="title">Đăng nhập để tiếp tục</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-item">
+                    <div class="button-field">
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                        <input type="button" id="login" value="Đăng nhập" onclick="window.location.href='loginsigup.html'">
 
+                    </div>
+                    <div class="button-field">
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        <input type="button" id="loginFacebook" value="Đăng nhập với Facebook">
+                    </div>
+                    <div class="button-field">
+                        <i class="fa fa-google" aria-hidden="true"></i>
+                        <input type="button" id="loginGg" value="Đăng nhập với Google">
+                    </div>
+                    <div class="button-field">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                        <input type="button" id="loginGit" value="Đăng nhập với Github">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END modal -->
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
     <!-- Bootstrap -->
