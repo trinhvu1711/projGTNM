@@ -1,6 +1,7 @@
 /* ===== Google Font Import - Poformsins ===== */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +19,7 @@ body {
 
 .container {
     position: relative;
-    max-width: 350px;
+    max-width: 600px;
     width: 100%;
     background: #fff;
     border-radius: 10px;
@@ -30,7 +31,7 @@ body {
 .container .forms {
     display: flex;
     align-items: center;
-    height: 440px;
+    height: 600px;
     width: 200%;
     transition: height 0.2s ease;
 }
@@ -100,7 +101,7 @@ body {
 }
 
 .input-field input:is(:focus,
- :valid) {
+    :valid) {
     border-bottom-color: #4070f4;
 }
 
@@ -114,7 +115,7 @@ body {
 }
 
 .input-field input:is(:focus,
- :valid)~i {
+    :valid)~i {
     color: #4070f4;
 }
 
